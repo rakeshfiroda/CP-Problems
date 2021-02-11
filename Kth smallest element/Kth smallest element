@@ -1,0 +1,3 @@
+def kthSmallest(arr, l, r, k):
+    arr.sort()
+    return arr[k-1]
